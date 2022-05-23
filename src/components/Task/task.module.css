@@ -1,0 +1,23 @@
+.task {
+  /* Sample  */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  list-style: none;
+}
+
+
+
+.task>:nth-child(2){
+  width:200px;
+  margin-left: 10px;
+  margin-right: 30px;
+}
+.task>:nth-child(3){
+  margin-left: 10px;
+  margin-right: 30px;
+}
+
+.task>:nth-child(1):focus{
+ text-decoration: line-through;
+}
